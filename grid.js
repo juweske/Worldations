@@ -1,17 +1,31 @@
 var table = document.getElementById('grid');
 
-var data = Array(
-  Array(1,2,3),
-  Array(4,5,6)
-);
+var  data = Array();
+
+for (var i = 1; i <= 60; i++ ) {
+  var row = Array();
+
+  for (var j = 1; j <= 100; j++ ) {
+  row.push();
+  }
+  data.push(row);
+}
+
+
+
 
 for (var i = 0; i < data.length; i++) {
-  table.innerHTML = table.innerHTML + "<tr>";
+  var row = "";
   for (var j = 0; j < data[i].length; j++) {
-      table.innerHTML = table.innerHTML + "  <td>"+ data[i][j] + "</td>";
+      switch (data[i][j]) {
+        case 0:
+          tdClass = "white";
+          break;
+          case 1:
+            tdClass = "grey";
+            break;
+      }
+      row = row + "  <td> <div class='"+tdClass + "'> </div> </td>";
   }
-    table.innerHTML = table.innerHTML + "</tr>";
-
-
+    table.innerHTML = table.innerHTML + "<tr>" + row + "</tr>";
 }
-alert(table.innerHTML);
