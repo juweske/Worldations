@@ -1,3 +1,7 @@
+*:focus{
+    outline: none;
+}
+
 *,
 head,
 body {
@@ -9,7 +13,6 @@ html {
 }
 
 body {
-    background-color: deepskyblue;
     color: deepskyblue;
     height: 100%;
     font-family: calibri;
@@ -30,6 +33,7 @@ body {
 .flex-header h1 {
     font-size: 50px;
     display: inline;
+    color: deepskyblue;
 }
 
 .flex-header p {
@@ -39,9 +43,7 @@ body {
 }
 
 .flex-map {
-    background-image: url(map.png);
-    background-repeat: no-repeat;
-    background-position: top ;
+    
     background-color: white;
 
 /*    height: 100%;*/
