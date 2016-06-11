@@ -22,7 +22,6 @@ body {
 }
 
 .flex-header {
-/*    height: 100px;*/
     background-color: white;
     padding: 25px;
     
@@ -34,8 +33,9 @@ body {
 }
 
 .flex-header p {
-    font-size: 25px;
+    font-size: 22px;
     display: inline;
+    padding-left: 10px;
 }
 
 .flex-map {
@@ -51,6 +51,7 @@ body {
 .flex-headline {
     padding: 25px;
     color: white;
+    background-color: deepskyblue;
 }
 
 .flex-headline p {
