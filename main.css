@@ -1,16 +1,29 @@
-*,head,body{padding:0;
-margin:0;}
-body{
-	background-color: deepskyblue;
-	color: deepskyblue;
+*,head,body{
+    margin:0;
     
+}
+html{
+    height: 100%;
+    
+}
+body{
+	background-color: white;
+	color: white;
+    height: 100%;
+  
 }
 
 #header{
     width: 100%;
     height: 75px;
-    background-color: white;
+    background-color: deepskyblue;
     
+}
 
-
+#content{
+    background-image: url(weltkarte-quadrat-puzzlespiel-12485869.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
 }
