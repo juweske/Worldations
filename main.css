@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    color: deepskyblue;
+ 
     height: 100%;
     font-family: calibri;
 }
@@ -27,13 +27,13 @@ body {
 .flex-header {
     background-color: white;
     padding: 25px;
-
+    color: deepskyblue;
 }
 
 .flex-header h1 {
     font-size: 50px;
     display: inline;
-    color: deepskyblue;
+    
 }
 
 .flex-header p {
@@ -55,9 +55,15 @@ body {
     color: white;
     background-color: deepskyblue;
     border-top: 3px solid lightgrey;
-    
+    font-size: 35px;
 }
 
 .flex-headline p {
-    font-size: 30px;
+    font-size: 25px;
+}
+.organisations-heading{
+    background-color: white;
+    color: deepskyblue;
+    padding: 25px;
+    font-size: 22px
 }
