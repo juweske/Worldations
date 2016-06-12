@@ -13,3 +13,5 @@
 
    //USA
     <area alt="" title="" href="#" shape="poly" coords="337,333,347,377,239,432,174,344" />
+
+//Brasilien
