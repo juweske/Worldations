@@ -5,6 +5,7 @@
 
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
+    <link href="land.css" rel="stylesheet">
 
     <title>Deutschland</title>
     <meta charset="utf-8">
@@ -13,7 +14,7 @@
 <body>
     <div class="flex-header">
         <h1>Worldations</h1>
-        <p>The easy way of donations.</p>
+        <p>The easy way to donations.</p>
     </div>
     <div class="flex-headline">
 
@@ -24,11 +25,26 @@
 
     </div>
 
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Hilfsorganisationen
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu " aria-labelledby="dropdownMenu1">
+            <li><a href="#bfdw2">Brot fürdie Welt</a></li>
+            <li><a href="#unicef2">UNICEF</a></li>
+            <li><a href="#greenpeace2">Greenpeace</a></li>
+            <!--    <li role="separator" class="divider"></li>-->
+            <li><a href="#aog2">Ärtzte ohne Grenzen</a></li>
+        </ul>
+    </div>
+
     <div class="panel panel-default">
         <div class="organisations-heading">Liste der Hilfsorganisationen</div>
         <div class="panel-body">
             <div class="list-group">
 
+                <a name="bfdw2"></a>
                 <a href="#bfdw" data-toggle="modal" class="list-group-item ">
                     <div class="row text-center">
                         <img src="bilder/logo_brot_fuer_die_welt_gross.png" alt="Brot für die Welt Logo" class="img-rounded col-xs-12 col-md-2 col-md-offset-5 ">
@@ -36,7 +52,7 @@
                         </div>
                     </div>
                 </a>
-
+                <a name="unicef2"></a>
                 <a href="#unicef" data-toggle="modal" class="list-group-item ">
                     <div class="row">
                         <img src="bilder/logo_unicef.png" width="10px" alt="UNICEF Logo" class="img-rounded col-xs-12 col-md-2 col-md-offset-5">
@@ -46,7 +62,7 @@
                     </div>
                 </a>
 
-
+                <a name="greenpeace2"></a>
                 <a href="#gp" data-toggle="modal" class="list-group-item ">
                     <div class="row">
                         <img src="bilder/Greenpeace-logo.png" width="300px" alt="Greenpeace Logo" class="img-rounded col-xs-12 col-md-2 col-md-offset-5">
@@ -56,6 +72,7 @@
                     </div>
                 </a>
 
+                <a name="aog2"></a>
                 <a href="#aog" data-toggle="modal" class="list-group-item ">
                     <div class="row">
                         <img src="bilder/Aerzte_ohne_Grenzen_Logo.png" width="300px" alt="Ärtzte ohne Grenzen" class="img-rounded col-xs-12 col-md-2 col-md-offset-5">
@@ -165,6 +182,14 @@
     <!--    <script src="jquery/jquery-3.0.0.js"></script>-->
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
+
+    <div id="untererkasten" class="jumbotron">
+        <h1></h1>
+        <p></p>
+        <p></p>
+        <p> </p>
+
+    </div>
 </body>
 
 
