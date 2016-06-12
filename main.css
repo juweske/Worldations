@@ -1,4 +1,4 @@
-*:focus{
+*:focus {
     outline: none;
 }
 
@@ -13,7 +13,6 @@ html {
 }
 
 body {
- 
     height: 100%;
     font-family: calibri;
 }
@@ -27,14 +26,14 @@ body {
 .flex-header {
     background-color: white;
     padding: 25px;
-    color: deepskyblue;
+    color: #00bfff;
 }
 
 .flex-header h1 {
     font-size: 50px;
     display: inline;
     font-weight: 500;
-    
+	line-height: 1.1;
 }
 
 .flex-header p {
@@ -44,16 +43,16 @@ body {
 }
 
 .flex-map {
-    
     background-color: white;
     flex-grow: 1;
 }
-.map{
+
+.map {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
+
 .flex-headline {
     padding: 25px;
     color: white;
@@ -65,7 +64,8 @@ body {
 .flex-headline p {
     font-size: 25px;
 }
-.organisations-heading{
+
+.organisations-heading {
     background-color: white;
     color: deepskyblue;
     padding: 25px;
