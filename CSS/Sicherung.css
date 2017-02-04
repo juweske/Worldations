@@ -1,0 +1,57 @@
+*,
+head,
+body {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: deepskyblue;
+    color: deepskyblue;
+    height: 100%;
+    font-family: calibri;
+}
+
+.flex-body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.flex-header {
+    background-color: white;
+    padding: 25px;
+}
+
+.flex-header h1 {
+    font-size: 50px;
+    display: inline;
+}
+
+.flex-header p {
+    font-size: 22px;
+    display: inline;
+    padding-left: 10px;
+}
+
+.flex-headline {
+    padding: 25px;
+    color: white;
+    background-color: deepskyblue;
+    border-top: 3px solid lightgrey;
+}
+
+.flex-headline p {
+    font-size: 30px;
+}
+
+.flex-map {
+    background-image: url(weltkarte-quadrat-puzzlespiel-12485869.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: white;
+    flex-grow: 1;
+}

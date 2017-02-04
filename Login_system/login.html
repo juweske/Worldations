@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adressen eingeben</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="phpkid.css">
+</head>
+<body>
+<p><a href="zeige_adressen4.php">Adressen anzeigen</a></p>
+<h3>Adressen eingeben</h3>
+<form action="index.php" method="post">
+Benutzername: <input type="text" name="Benutzername"><br>
+Passwort: <input type="text" name="Schluessel"><br>
+<input type="submit" value="Daten eintragen" name="submit">
+</form>
+<?php
+if (!empty($_POST["submit"])) {
+$db = @mysqli_connect("localhost", "root", "") or die("Verbindung zu MySQL gescheitert");
+mysqli_set_charset($db, 'utf8');
+@mysqli_select_db($db, "Worldation") or die("Datenbankzugriff gescheitert!");
+    SELECT Passwort FROM Worldations WHERE 'Benutzername' ==$_POST["Benutzername"]
+if($_POST["Schluesel"] == )
+mysqli_close($db);
+}
+?>
+<p><a href="zeige_adressen4.php">Adressen anzeigen</a></p>
+</body>
+</html>
