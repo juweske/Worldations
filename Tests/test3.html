@@ -1,0 +1,13 @@
+ <html>
+
+<img onclick="test(Ort, test, 1)" src="tor2.png" href="test4.html">
+</html>
+
+<script>
+function test(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + "; " + expires;
+}
+</script>
