@@ -49,39 +49,3 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-
-
-head {
-    margin: 0;
-    background-color: black;
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    background-color: white;
-    color: black;
-    height: 100%;
-    font-family: calibri;
-}
-
-.map {
-  display: block;
-}
-
-.flex-header {
-    background-color: white;
-    
-}
-.flex-body {
-    background-color: white;
-}
-.menu_button {
-    font-size: 50px;
-    margin: 1800px;
-}
-.login {
-    margin: 1000px;
-}
